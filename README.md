@@ -1,6 +1,7 @@
 # Coffee chain Retail price optimization project
 
-Introduction
+## Introduction
+
 Pricing a product is a crucial aspect of any business. This project focuses on identifying the optimal prices for items in a cafe based on their past sales and price elasticity. The data is stored in a PostgreSQL database hosted on Amazon RDS and analyzed using various machine learning algorithms in Python.
 
 ## Project Overview
@@ -49,7 +50,6 @@ Ordinary Least Squares Method
 
 Use statistical parameters like R-squared value to evaluate models.
 
-
 ## Prerequisites
 
 - Python >=3.10.4
@@ -68,8 +68,11 @@ git clone https://github.com/yourusername/Price-Optimization-Project.git
 pip install -r requirements.txt
 ```
 
-- Set up the PostgreSQL database:
-- Configure the database connection settings in the project files.
+Set up the PostgreSQL database:
+- Configure the database connection settings in the project files. To connect to Amazon RDS Just copy the endpoint and post it to
+  
+- <img width="1453" alt="Create AWS RDS Database" src="https://github.com/ranjeetsn/Price-Optimization-project/assets/16061374/52b723e0-87db-4dcc-94ae-4a350cb8b797">
+
 
 3. Running the Project
 If you set up a SQL database(recommended)
