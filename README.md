@@ -1,1 +1,1 @@
-# Price-Optimization-project
+# Coffee chain Retail price optimization project
