@@ -42,9 +42,9 @@ Setup and Installation
 
 ## Prerequisites
 
-Python >=3.10.4
-PostgreSQL
-psycopg2 library
+- Python >=3.10.4
+- PostgreSQL
+- psycopg2 library
 
 ## Installation
 1. Clone the repository:
