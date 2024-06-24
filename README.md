@@ -29,26 +29,26 @@ Columns: Date, Year, Holiday, Weekend, School Break, Temperature, Outdoor
 ## Tools and Techniques
 
 ### Techniques
-Price Optimization Algorithms
-Cost-less Pricing
-Competition-based Pricing
-Perceived Value Pricing
-Demand-based Pricing
+- Price Optimization Algorithms
+- Cost-less Pricing
+- Competition-based Pricing
+- Perceived Value Pricing
+- Demand-based Pricing
 
 ### Tools
-Exploratory Data Analysis
-Data Cleaning: Remove redundancy and ensure consistency.
-Data Visualization: Use matplotlib and seaborn for visualization.
-Data Merging: Merge datasets using Pandas dataframes.
+- Exploratory Data Analysis
+- Data Cleaning: Remove redundancy and ensure consistency.
+- Data Visualization: Use matplotlib and seaborn for visualization.
+- Data Merging: Merge datasets using Pandas dataframes.
 
-## Machine Learning Algorithms
+### Machine Learning Algorithms
 
-Regression Trees
-Ordinary Least Squares Method
+- Regression Trees
+- Ordinary Least Squares Method
 
-## Model Evaluation
+### Model Evaluation
 
-Use statistical parameters like R-squared value to evaluate models.
+Using statistical parameters like R-squared value to evaluate models.
 
 ## Prerequisites
 
