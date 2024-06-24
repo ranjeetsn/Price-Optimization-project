@@ -49,7 +49,7 @@ Setup and Installation
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/price-optimization.git
+git clone https://github.com/yourusername/Price-Optimization-Project.git
 ```
 
 2. Install the required libraries:
