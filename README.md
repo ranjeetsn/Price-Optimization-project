@@ -24,21 +24,31 @@ Columns: Calendar Date, Price, Quantity, Sell ID, Sell Category
 Cafe - DateInfo.csv: Date information corresponding to the transactions performed.
 
 Columns: Date, Year, Holiday, Weekend, School Break, Temperature, Outdoor
-Tools and Techniques
+
+## Tools and Techniques
+
+### Techniques
 Price Optimization Algorithms
 Cost-less Pricing
 Competition-based Pricing
 Perceived Value Pricing
 Demand-based Pricing
+
+### Tools
 Exploratory Data Analysis
 Data Cleaning: Remove redundancy and ensure consistency.
 Data Visualization: Use matplotlib and seaborn for visualization.
 Data Merging: Merge datasets using Pandas dataframes.
-Machine Learning Algorithms
+
+## Machine Learning Algorithms
+
 Regression Trees
 Ordinary Least Squares Method
-Model Evaluation: Use statistical parameters like R-squared value to evaluate models.
-Setup and Installation
+
+## Model Evaluation
+
+Use statistical parameters like R-squared value to evaluate models.
+
 
 ## Prerequisites
 
@@ -47,6 +57,7 @@ Setup and Installation
 - psycopg2 library
 
 ## Installation
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/Price-Optimization-Project.git
@@ -68,7 +79,7 @@ import psycopg2
 Your code to fetch data
 Run the Jupyter Notebook:
 
-jupyter notebook price_optimization.ipynb
+jupyter notebook "Price Optimization based on price elasticity.ipynb"
 
 ## Application
 The solution of this pricing optimization project can be easily extended to various industries like medical, hospitality, insurance, etc.
