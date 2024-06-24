@@ -69,10 +69,19 @@ pip install -r requirements.txt
 ```
 
 Set up the PostgreSQL database:
-- Configure the database connection settings in the project files. To connect to Amazon RDS Just copy the endpoint and post it to
-  
-- <img width="1453" alt="Create AWS RDS Database" src="https://github.com/ranjeetsn/Price-Optimization-project/assets/16061374/52b723e0-87db-4dcc-94ae-4a350cb8b797">
+- Setup your AWS RDS Data Base as shown below, this step is pretty straight forward:
+ <img width="1453" alt="Create AWS RDS Database" src="https://github.com/ranjeetsn/Price-Optimization-project/assets/16061374/52b723e0-87db-4dcc-94ae-4a350cb8b797">
 
+- In the connectivity and Security option, you can get the Endpoint address that you need to connect to your host locally with this address:
+<img width="989" alt="Get Endpoint address" src="https://github.com/ranjeetsn/Price-Optimization-project/assets/16061374/bad20597-e8d5-4935-8320-3a6f75cfd91e">
+
+- In MySQL post the address as shown in the image below:
+  <img width="670" alt="Server Host address" src="https://github.com/ranjeetsn/Price-Optimization-project/assets/16061374/7fa0a6b6-18d1-472b-b178-1a02058f3c3b">
+
+- Now comes the hard part, To establish connectivity between your local host and the database, it is necessary to configure Inbound rules within the security group, allowing the appropriate traffic to pass through.
+  <img width="999" alt="Inbound rules" src="https://github.com/ranjeetsn/Price-Optimization-project/assets/16061374/5315ffc2-5fc9-44d1-9b1e-c91dc6476b61">
+
+- Test the connection to make sure you are connected
 
 3. Running the Project
 If you set up a SQL database(recommended)
