@@ -29,7 +29,7 @@ Columns: Date, Year, Holiday, Weekend, School Break, Temperature, Outdoor
 ## Tools and Techniques
 
 ### Techniques
-- Price Optimization Algorithms
+Price Optimization Algorithms:
 - Cost-less Pricing
 - Competition-based Pricing
 - Perceived Value Pricing
